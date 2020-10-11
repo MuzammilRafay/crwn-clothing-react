@@ -1,0 +1,27 @@
+import { ReactComponent as Logo } from "../../assets/crown.svg";
+
+https://console.firebase.google.com/project/crwn-db-8b2d2/storage/crwn-db-8b2d2.appspot.com/files
+
+gs://crwn-db-8b2d2.appspot.com
+
+https://crwn-db-8b2d2.firebaseio.com/
+
+
+
+
+test.js
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+
+const firestore = firebase.firestore();
+one method
+firestore.collection('users').doc('generatedid').collection('cartItems').doc('generatedid')
+second method
+firestore.doc('/users/generatedid/cartItems/');
+3rd method
+firestore.collection('/users/generatedid/cartItems/');
+
+
+all method is for get document and collections
+
+tuts 14 -> 2 -> 9:03 par hon
