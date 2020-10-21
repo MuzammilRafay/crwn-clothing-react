@@ -37,4 +37,8 @@ git push heroku master
 
 https://crwn-live-muz.herokuapp.com/
 
-tuts 16 -> 2 -> 9:03 par hon
+git pull git@github.muzammil:MuzammilRafay/crwn-clothing-react.git master
+
+tuts 16 -> 7 folder completed
+
+
