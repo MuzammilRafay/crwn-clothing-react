@@ -39,6 +39,6 @@ https://crwn-live-muz.herokuapp.com/
 
 git pull git@github.muzammil:MuzammilRafay/crwn-clothing-react.git master
 
-tuts 16 -> 7 folder completed
+tuts 17 -> 7 completed
 
 
