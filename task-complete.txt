@@ -42,3 +42,43 @@ git pull git@github.muzammil:MuzammilRafay/crwn-clothing-react.git master
 tuts 17 -> 7 completed
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REDUX FLOW
+
+
+D:\laragon\www\2-learning-muz\2\crwn-clothing-react\src\redux\user\user.action.js
+its not using any where soo lets check this
+in App.js
+import { setCurrentUser } from "./redux/user/user.action";
+
+in end of ReactComponent
+
+const mapDispatchToProps = (dispatch) => ({
+  setCurrentUser: (user) => dispatch(setCurrentUser(user)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+its work like that you are calling this action and it will find in your all root reducers which is created by you like this one 
+D:\laragon\www\2-learning-muz\2\crwn-clothing-react\src\redux\user\user.reducer.jsx
+SET_CURRENT_USER
+
+
+
+
+
